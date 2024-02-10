@@ -1,0 +1,93 @@
+.container{
+    max-width: 1200px;
+}
+
+nav{
+    margin-bottom: 100px;
+}
+
+.logo{
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+
+
+.control{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+}
+
+.control-item{
+
+    list-style: none;
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 16px;
+line-height: 175%;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+
+.control-item:hover{
+    color: #fa4a0c;
+}
+
+.hero{
+    position: relative;
+    right: 250px;
+    display: flex;
+    justify-content: center;
+    width: 1682px;
+    background-image: url(../images/hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 9;
+}
+
+.on-title{
+    position: relative;
+    bottom: 580px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+.title{
+    position: relative;
+    bottom: 560px;
+    font-family: 'Poppins' ;
+font-weight: 700;
+font-size: 58px;
+line-height: 138%;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+}
+
+
+.un-title{
+    position: relative;
+    bottom: 540px;
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #f6f6f6;
+}
+
+.btn{
+    border: 1px solid white;
+    width: 236px;
+    height: 68px;
+    border-radius: 25%;
+}

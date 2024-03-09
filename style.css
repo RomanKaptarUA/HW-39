@@ -34,6 +34,7 @@ text-align: center;
 
 .control-item:hover{
     color: #fa4a0c;
+    cursor: pointer;
 }
 
 .hero{

@@ -86,9 +86,77 @@ text-align: center;
 color: #f6f6f6;
 }
 
+.two-button{
+    padding-right: 22px;
+    position: absolute;
+    left: 600px;
+    bottom: 40px;
+}
 .btn{
     border: 1px solid white;
     width: 236px;
     height: 68px;
-    border-radius: 25%;
+    border-radius: 25px;
+}
+
+.button-text{
+    position: relative;
+    top: 8px;
+    font-family: 'Montserrat';
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6f6f6;
+}
+
+.second-title{
+    margin-top: -202px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 82%;
+    letter-spacing: 0em;
+    color: #000;
+}
+
+.second-div{
+    display: flex;
+}
+
+.second-div2{
+    margin-left: 282px;
+    margin-top: 200px;
+}
+
+.second-create{
+    font-family:  'Montserrat';
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0em;
+color: #fa4a0c;
+}
+
+.second-createlo{
+    font-family:  'Montserrat'; 
+font-weight: 700;
+font-size: 40px;
+line-height: 142%;
+letter-spacing: 0.01em;
+color: #252b42;
+}
+
+.second-an{
+    font-family:  'Montserrat'; 
+font-weight: 500;
+font-size: 24px;
+line-height: 158%;
+letter-spacing: 0.01em;
+color: #737373;
 }
